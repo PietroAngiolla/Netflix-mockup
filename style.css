@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(44, 44, 44);
+    padding-left: 15px;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+.navbar{
+    display: flex;
+}
+
+.sections, .search{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.sections img{
+    width: 20%;
+    height: 40px;
+    padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(192, 192, 192);
+}
+
+.account img{
+    width: 50%;
+    height: 35px;
+    padding-right: 0;
+}
+
+.dropdown{
+    padding-left: 0;
+}
+
+.account{
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
