@@ -50,6 +50,7 @@ a{
 
 .section-option{
     margin-top: 25px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,6 +111,40 @@ h3{
     border-color: gray;
 }
 
+h4{
+    color: white;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 1.7em;
+    margin-top: 35px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.row div{
+    overflow: visible;
+    width: 19%;
+    margin: 0;
+    padding: 0;
+}
+
+.row img{
+    width: 100%;
+    padding: 25px 0;
+    transition-duration: 0.5s;
+}
+
+.row img:hover{
+    transform: scale(1.2, 1.2);
+}
+
+
+
 
 @media (max-width: 480px){
     .sections, .search{
@@ -139,6 +174,18 @@ h3{
         flex-direction: column;
         align-items: center;
         gap: 5px;
+    }
+
+    .row div{
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .row div{
+        width: 28%;
+        height: auto;
     }
 }
 
